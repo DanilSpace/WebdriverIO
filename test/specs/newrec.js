@@ -11,7 +11,7 @@ describe("new rec 1", () => {
     }])
     await browser.performActions([{
       type: 'key',
-      id: 'keyboard',
+      id: 'keyboard', //222
       actions: [{ type: 'keyUp', value: '' }]
     }])
     await browser.$("#username").click()
